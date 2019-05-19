@@ -4,8 +4,8 @@ int main()
 int a;
 scanf("%d",&a);
 if((a%400==0)&&(a%100==0)||(a%4==0))
-printf("leap year");
+printf("yes");
 else
-printf("not leap year");
+printf("no");
     return 0;
 }
