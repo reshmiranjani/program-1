@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() 
+void main() 
 { 
     float a, b, c;
     scanf("%f %f %f", &a, &b, &c); 
@@ -10,6 +10,4 @@ int main()
         printf("%f",b); 
  if (c >= && c >= b) 
         printf("%f",c); 
-  
-    return 0; 
 } 
