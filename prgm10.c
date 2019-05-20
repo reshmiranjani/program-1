@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
     int n,count=0;
     scanf("%d",&n);
@@ -10,7 +10,4 @@ int main()
     n=n/10;
     }
     printf("%d",count);
-    
-    
-    return 0;
 }
