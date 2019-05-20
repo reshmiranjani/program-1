@@ -1,14 +1,12 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
 char ch;
 scanf("%c",&ch);
 if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
-
-
-printf("alphabets"); 
+printf("Alphabets"); 
 else
 printf("no");
-    return 0;
+    
 }
