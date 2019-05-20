@@ -1,6 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
-int main()
+void main()
 {
 int a;
 scanf("%d",&a);
@@ -10,5 +9,4 @@ else if(a<0)
 printf("Negative");
 else if(a==0)
 printf("Zero");
-return 0;
 }
